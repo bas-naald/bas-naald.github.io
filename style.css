@@ -1,0 +1,121 @@
+
+    h1{
+        color: #b3eba7;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 50%;
+        margin-left: 26.4%;
+    }
+    
+    
+.button{
+    
+    background-color: #abf5fccf;
+    border: none;
+    transition: 0.5s;
+    transform: translateY(4px);
+    background-color: aquamarine;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px 41px;
+    
+    cursor: pointer;
+    }
+    .button:hover,#button2:hover{background-color: aqua;}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+body{
+    
+    background-color: #7fffd47b;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 0, 0, 0);
+    transform: translateY(4px);
+    transition: 0.5s;
+    color: #656e6b;
+    width:30%;
+    font-size: 130%;
+    
+   
+}
+p:hover{background-color: rgba(0, 255, 255, 0); color: black;}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 0, 0, 0);
+    transform: translateY(4px);
+    transition: 0.5s;
+    color: #656e6b;
+    font-size: 130%;
+    margin-top: 30px;
+  
+}
+
+ul:hover{background-color: rgba(0, 255, 255, 0); color: black;} 
+
+
+
+img {
+    float:left;
+}
+h2 {
+    float:right;
+}
+
+#profiel{
+    text-align: center;
+    width: 100%;
+    cursor: default;
+}
+
+#button2{
+    display: block;
+    
+    border: none;
+    transition: 0.5s;
+    transform: translateY(4px);
+    background-color: aquamarine;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-left: 18%; 
+    width: 1000px;
+    
+}
+
+h4,h5,h6,h7,h8{
+    font-size: large;
+}
+
+.box1c,.box2c,.box3c,.box4c,.box5c,.box6c{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    outline: 10px solid rgb(128, 128, 128);
+    
+    
+    
+}
+.box1c:hover,.box2c:hover,.box3c:hover,.box4c:hover,.box5c:hover,.box6c:hover{
+outline: 10px solid rgb(63, 63, 63);
+transition: 0.3s;
+cursor: default;
+}
+.timeline{
+    display: flex;
+}
+table{
+    border: 1px solid black; 
+}
