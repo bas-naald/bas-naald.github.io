@@ -4,6 +4,7 @@ h1 {
     text-align: center;
     width: 50%;
     margin-left: 26.4%;
+    margin-top: 5%;
 
 }
 
@@ -21,12 +22,11 @@ header {
     border-radius: 15px;
     text-align: center;
     padding: 20px;
-    margin-top: 5%;
     width: 250px;
-    margin-left: 11.3%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-
+    margin-left: 0;
+    margin-right: 5.45%;
     cursor: pointer;
 }
 
@@ -35,9 +35,10 @@ header {
 }
 .button:hover,
 #button3:hover,
-.button_backindex:hover {
+.button_backindex:hover,
+.aaside:hover {
     background-color: aqua;
-    width: 13.7%;
+    padding: 22px;
 }
 
 .button2:hover {
@@ -142,6 +143,7 @@ th {
     padding: 12px;
     text-align: left;
     color: rgb(0, 0, 0);
+   
 }
 
 td {
@@ -163,6 +165,7 @@ td {
 .center {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 
 .p1 {
@@ -206,19 +209,6 @@ img {
 
 html {
     overflow-x: hidden;
-}
-
-#ul2 {
-    list-style-type: none;
-    background-color: rgba(39, 115, 255, 0.637);
-    width: 175px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    margin-top: -0%;
-    margin-left: -1%;
-    bottom: -97px;
 }
 
 .checkbox2 {
@@ -309,15 +299,52 @@ html {
 
 header{
     position: fixed;
-    width: 100%;
+    width: 150%;
     z-index: 2;
     top: 0;
     left: 0;
-    background-color: rgba(39, 115, 255, 0.637);
+    background-color: rgb(39, 115, 255);
+    padding: 13px;
 }
 
 .aaside{ 
-    background-color: red;
+    background-color: rgba(0, 58, 184, 0.692);
     border: none;
+    width: 111%;
+    padding: 20px;
+    transition: 0.5s;
+    transform: translateY(4px);
+    position: relative;
+    left: -20px;
     
+    
+}
+
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 0, 0, 0);
+    transform: translateY(4px);
+    transition: 0.5s;
+    color: #ffffff;
+    font-size: 100%;
+    width: 900px;
+    background-color: #0025ca7b;
+    padding: 60px;
+    border: 20px solid #23def7a1;
+    border-radius: 15px;
+    
+    
+}
+
+#ul2 {
+    list-style-type: none;
+    background-color: rgb(39, 115, 255);
+    width: 175px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    margin-top: -0%;
+    margin-left: -1%;
+    bottom: -95px;
 }
