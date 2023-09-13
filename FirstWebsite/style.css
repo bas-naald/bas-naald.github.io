@@ -13,11 +13,11 @@ header {
 
 .button {
 
-    background-color: #abf5fccf;
+    
     border: none;
     transition: 0.5s;
     transform: translateY(4px);
-    background-color: aquamarine;
+    background-color: rgba(0, 58, 184, 0.692);
     border-radius: 15px;
     text-align: center;
     padding: 20px;
@@ -30,10 +30,9 @@ header {
     cursor: pointer;
 }
 
-a{
-    font-family: Arial, Helvetica, sans-serif;
+.ahomepage{
+    color: white;
 }
-
 .button:hover,
 #button3:hover,
 .button_backindex:hover {
@@ -55,7 +54,7 @@ a {
 }
 
 body {
-    background-color: #7fffd47b;
+    background-color: #367cff77;
 }
 
 p {
@@ -171,12 +170,12 @@ td {
     background-color: rgba(255, 0, 0, 0);
     transform: translateY(4px);
     transition: 0.5s;
-    color: #656e6b;
+    color: #ffffff;
     font-size: 200%;
     width: 900px;
-    background-color: #9ce0ca7b;
+    background-color: #0025ca7b;
     padding: 60px;
-    border: 20px solid #65867b7b;
+    border: 20px solid #23def7a1;
     border-radius: 15px;
     
     
@@ -211,7 +210,7 @@ html {
 
 #ul2 {
     list-style-type: none;
-    background-color: green;
+    background-color: rgba(39, 115, 255, 0.637);
     width: 175px;
     position: fixed;
     bottom: 0;
@@ -219,7 +218,7 @@ html {
     height: 100%;
     margin-top: -0%;
     margin-left: -1%;
-    bottom: -90px;
+    bottom: -97px;
 }
 
 .checkbox2 {
@@ -314,12 +313,11 @@ header{
     z-index: 2;
     top: 0;
     left: 0;
-    background-color: green;
+    background-color: rgba(39, 115, 255, 0.637);
 }
 
-.aside_a{
-
+.aaside{ 
     background-color: red;
-    padding: 20px;
-    margin: 10% 0% 10% 0%;
+    border: none;
+    
 }
