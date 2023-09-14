@@ -67,7 +67,7 @@ p {
     width: 70%;
     font-size: 130%;
     text-align: center;
-    margin-left: auto;
+    margin-left: 350px;
     margin-right: auto;
 }
 
@@ -170,7 +170,7 @@ td {
     background-color: rgba(255, 0, 0, 0);
     transform: translateY(4px);
     transition: 0.5s;
-    color: #c9c9c9;
+    color: #ffffff;
     font-size: 170%;
     background-color: #0025ca7b;
     padding: 40px 110px 40px 110px;
@@ -233,11 +233,15 @@ html {
     width: 150px;
     position: relative;
     left: 75px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boxesheight {
     height: 55%;
     width: 270px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boxes {
