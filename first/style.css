@@ -335,4 +335,22 @@ p:hover {
 }
 
 /*-----------------------------------*/
+/*marked*/
+.buttonMarked {
+
+
+    border: none;
+    transition: 0.5s;
+    transform: translateY(4px);
+    background-color: aqua(0, 58, 184, 0.692);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 5.45%;
+    cursor: pointer;
+}
 /*end*/
