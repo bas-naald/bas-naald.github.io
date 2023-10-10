@@ -342,7 +342,7 @@ p:hover {
     border: none;
     transition: 0.5s;
     transform: translateY(4px);
-    background-color: aqua(0, 58, 184, 0.692);
+    background-color: aqua;
     border-radius: 15px;
     text-align: center;
     padding: 20px;
