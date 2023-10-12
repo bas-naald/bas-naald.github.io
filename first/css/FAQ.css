@@ -1,0 +1,20 @@
+.button2 {
+
+    border: none;
+    transition: 0.5s;
+    transform: translateY(4px);
+    background-color: rgba(0, 58, 184, 0.692);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-left: 440px;
+    width: 1200px;
+
+}
+
+.yup {
+    color: black;
+}

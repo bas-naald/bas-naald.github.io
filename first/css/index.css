@@ -1,0 +1,19 @@
+.imgs {
+    width: 387px;
+    height: auto;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 70px;
+    border-radius: 15px;
+    border: 20px solid #23def7a1;
+    border-radius: 15px;
+}
+
+.imgss {
+    width: 650px;
+    height: auto;
+    position: absolute;
+    margin-left: 60%;
+    mix-blend-mode: multiply;
+    margin-top: -20px;
+}

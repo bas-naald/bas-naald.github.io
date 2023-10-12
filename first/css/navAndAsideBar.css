@@ -1,0 +1,55 @@
+.button {
+
+
+    border: none;
+    transition: 0.5s;
+    transform: translateY(4px);
+    background-color: rgba(0, 58, 184, 0.692);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 5.45%;
+    cursor: pointer;
+}
+
+.ahomepage {
+    color: white;
+}
+
+.aaside {
+    background-color: rgba(0, 58, 184, 0.692);
+    border: none;
+    width: 111%;
+    padding: 20px;
+    transition: 0.5s;
+    transform: translateY(4px);
+    position: relative;
+    left: -20px;
+}
+
+#ul2 {
+    list-style-type: none;
+    background-color: rgb(39, 115, 255);
+    width: 175px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    margin-top: -0%;
+    margin-left: -1%;
+    bottom: -95px;
+}
+
+header {
+    position: fixed;
+    width: 150%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(39, 115, 255);
+    padding: 13px;
+}
